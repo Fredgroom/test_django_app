@@ -5,6 +5,7 @@ from django.contrib.auth.models import PermissionsMixin
 from django.contrib.auth.models import BaseUserManager
 
 
+
 class UserProfileManager(BaseUserManager):
     """Helps Django work with our custom user model."""
 
